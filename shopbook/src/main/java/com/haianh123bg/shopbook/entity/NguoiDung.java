@@ -38,7 +38,7 @@ public class NguoiDung {
     @Column(name="dia_chi_mua_hang")
     private String diaChiMuaHang;
 
-    @Column(name="dia_chi_gia_hang")
+    @Column(name="dia_chi_giao_hang")
     private String diaChiGiaoHang;
 
     @OneToMany(mappedBy = "nguoiDung", fetch = FetchType.LAZY, cascade = {

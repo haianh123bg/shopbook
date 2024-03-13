@@ -17,7 +17,7 @@ public class Sach {
     @Column(name = "ten_sach", length = 256)
     private String tenSach;
 
-    @Column(name = "ten_gia_gia", length = 512)
+    @Column(name = "ten_tac_gia", length = 512)
     private String tenTacGia;
 
     @Column(name = "isbn", length = 256)
